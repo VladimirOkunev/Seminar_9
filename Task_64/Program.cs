@@ -3,15 +3,16 @@
 
 void OddCount(int n)
 {
-	if(n==2) 
-    {Console.WriteLine(n);
-    return;
+    if (n == 2)
+    {
+        Console.WriteLine(n);
+        return;
     }
     else
     {
-        if(n%2==0) Console.WriteLine(n);
+        if (n % 2 == 0) Console.WriteLine(n);
     }
-	OddCount(n-1);
+    OddCount(n - 1);
 }
 
 Console.Write("Enter a number: ");
